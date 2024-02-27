@@ -1,14 +1,20 @@
 # python-acoustics
 
-[![Build Status](https://travis-ci.org/python-acoustics/python-acoustics.svg?branch=master)](https://travis-ci.org/python-acoustics/python-acoustics)
-
-The `python-acoustics` module is a Python module with useful tools for acousticians.
+**This is a fork of the [python-acoustics](https://github.com/python-acoustics/python-acoustics) package, which became a public archive on Feb 7, 2024**
 
 ## Installation
 
-The latest release can be found on PyPI and installed with `pip install acoustics`.
-Otherwise, you can clone this repository and install with `pip install` or `pip install -e` when you want an editable install.
+Using `pip install`:
 
+```bash
+pip install git+https://github.com/captif-nz/python-acoustics
+```
+
+Using `poetry add`:
+
+```bash
+poetry add git+https://github.com/captif-nz/python-acoustics
+```
 
 ## Examples
 
@@ -16,18 +22,8 @@ Several examples can be found in the `examples` folder.
 
 ## Tests
 
-The test suite can be run with
-
-`pytest`
-
-## Documentation
-
-Documentation can be found [online](http://python-acoustics.github.io/python-acoustics/).
+The test suite can be run with `pytest`.
 
 ## License
 
 `python-acoustics` is distributed under the BSD 3-clause license. See `LICENSE` for more information.
-
-## Contributing
-
-Contributors are always welcome.
