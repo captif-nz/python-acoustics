@@ -7,7 +7,6 @@ import numpy as np
 
 
 def main():
-
     """We happen to have the following frequency vector."""
     f = np.logspace(2, 4, 100)
 
@@ -48,5 +47,6 @@ def main():
 
     print(o.center)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
