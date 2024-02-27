@@ -10,8 +10,7 @@
 			"extensions": [
 				"ms-python.python",
 				"ms-python.pylance",
-				"ms-python.flake8",
-				"ms-python.pylint",
+				"charliermarsh.ruff",
 				"ms-toolsai.jupyter",
 				"github.copilot-nightly",
 				"ryanluker.vscode-coverage-gutters",
