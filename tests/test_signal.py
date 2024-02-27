@@ -45,11 +45,11 @@ def test_convolve_ltv():
 
 
 def test_decibel_to_neper():
-    assert (decibel_to_neper(1.0) == 0.11512925464970229)
+    assert decibel_to_neper(1.0) == pytest.approx(0.11512925464970229)
 
 
 def test_neper_to_decibel():
-    assert (neper_to_decibel(1.0) == 8.685889638065035)
+    assert neper_to_decibel(1.0) == pytest.approx(8.685889638065035)
 
 
 def test_ir2fr():
