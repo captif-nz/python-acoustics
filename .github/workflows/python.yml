@@ -22,7 +22,10 @@ jobs:
         # - name: Lint with ruff
         #   run: ruff .
         - name: Check formatting with black
-          run: black . --check --verbose
+          uses: psf/black@stable
+          with:
+            options: "--check --verbose"
+          # run: black . --check --verbose
         - name: Run unit tests
           run: |
             pytest -Wignore tests
