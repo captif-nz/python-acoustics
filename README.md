@@ -22,7 +22,13 @@ Several examples can be found in the `examples` folder.
 
 ## Tests
 
-The test suite can be run with `pytest`.
+The repository can be cloned into a [Docker container](https://www.docker.com/) using the Visual Studio Code [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
+
+The test suite can then be run with:
+
+```bash
+./coverage.sh
+```
 
 ## License
 
