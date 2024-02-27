@@ -1,40 +1,28 @@
-[build-system]
-requires = ["flit_core>=3.2"]
-build-backend = "flit_core.buildapi"
-
-[project]
+[tool.poetry]
 name = "acoustics"
 version = "0.2.6"
-authors = [
-  { name="Python Acoustics" },
-]
 description = "Acoustics module for Python."
+authors = []
+license = "BSD 3-Clause"
 readme = "README.md"
-requires-python = ">=3.6"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "Operating System :: OS Independent",
-]
-dependencies = [
-    "numpy >= 1.8",
-    "scipy >= 0.16",
-    "matplotlib",
-    "six >= 1.4.1",
-    "pandas >= 0.15",
-    "tabulate",
-]
-[project.optional-dependencies]
-documentation = [
-    "sphinx"
-]
-fast_fft = [
-    "pyFFTW"
-]
-[project.license]
-file = "LICENSE"
-[project.urls]
-"Homepage" = "https://github.com/python-acoustics/python-acoustics"
-"Bug Tracker" = "https://github.com/python-acoustics/python-acoustics/issues"
 
-[tool.flit.sdist]
-include = ["tests/"]
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+scipy = "^1.12.0"
+matplotlib = "^3.8.3"
+six = "^1.16.0"
+pandas = "^2.2.1"
+tabulate = "^0.9.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.2"
+pytest-cov = "^4.1.0"
+pytest-randomly = "^3.15.0"
+black = "^24.2.0"
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
