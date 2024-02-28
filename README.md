@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/captif-nz/python-acoustics/actions/workflows/ci.yml/badge.svg)](https://github.com/captif-nz/python-acoustics/actions/workflows/ci.yml)
 
-**This is a fork of the [python-acoustics](https://github.com/python-acoustics/python-acoustics) package, which became a public archive on Feb 7, 2024. Only issues that affect our use of the package will be considered for further investigation. Contributions and pull requests are welcome provided they are complete, contain passing tests and do not introduce breaking changes.**
+**This is a fork of the [python-acoustics](https://github.com/python-acoustics/python-acoustics) package, which became a public archive on Feb 7, 2024.**
 
 ## Installation
 
