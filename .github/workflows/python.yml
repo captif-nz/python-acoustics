@@ -17,7 +17,7 @@ jobs:
             python-version: "3.11"
         - name: Install dependencies
           run: |
-            python -m pip install --upgrade pip balck
+            python -m pip install --upgrade pip black
             pip install .
         # - name: Lint with ruff
         #   run: ruff .
