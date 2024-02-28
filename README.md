@@ -1,5 +1,7 @@
 # python-acoustics
 
+[![CI](https://github.com/captif-nz/python-acoustics/actions/workflows/ci.yml/badge.svg)](https://github.com/captif-nz/python-acoustics/actions/workflows/ci.yml)
+
 **This is a fork of the [python-acoustics](https://github.com/python-acoustics/python-acoustics) package, which became a public archive on Feb 7, 2024**
 
 ## Installation
